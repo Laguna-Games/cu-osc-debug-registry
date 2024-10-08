@@ -1,0 +1,24 @@
+{
+    "projectName": "debug-registry",
+    "buildDirectory": "build",
+    "abiOutputDirectory": "abis",
+    "abiConfigurations": [
+        {
+            "configuration": "lgInternal",
+            "minified": false,
+            "functionsPrecedence": {},
+            "eventsPrecedence": {},
+            "selectorsPrecedence": {},
+            "contractsToIgnore": [],
+            "eventsToIgnore": [],
+            "functionsToIgnore": [
+                "diamondCut",
+                "transferOwnership",
+                "initializeSupportsInterface"
+            ],
+            "selectorsToIgnore": [],
+            "eventsOnly": false,
+            "selectorLookup": false
+        }
+    ]
+}
